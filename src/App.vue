@@ -5,12 +5,12 @@ import SidebarNav from "./components/SidebarNav.vue";
 </script>
 
 <template>
-  <div class="flex-grid">
+  <div class="container flex-grid">
     <aside class="sidebar" style="padding: 0.25rem">
       <router-link to="/">
         <div class="headings">
-          <h2>MarsX</h2>
-          <h3>Subtitle</h3>
+          <h1>MarsX</h1>
+          <h3>Final Stand</h3>
         </div>
       </router-link>
       <SidebarNav />
@@ -38,6 +38,10 @@ canvas {
   padding: 1rem;
 }
 
+.headings {
+  margin: 0.5rem;
+}
+
 .sidebar {
   flex: 1;
   height: 100vh;
@@ -46,7 +50,7 @@ canvas {
 }
 
 .main {
-  flex: 5;
+  flex: 4;
 }
 
 /* width */
@@ -67,6 +71,11 @@ canvas {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #53637b;
+}
+.scene-container {
+  /* height: 50vh; */
+  margin: 2rem;
+  aspect-ratio: 16 / 9;
 }
 </style>
 

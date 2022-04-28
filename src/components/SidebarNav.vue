@@ -31,11 +31,11 @@ export default {
 }
 
 .nav-button {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 0.75rem;
   padding: 0.25rem;
   display: block;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 </style>>

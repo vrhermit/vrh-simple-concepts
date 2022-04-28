@@ -9,4 +9,4 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## General notes
 
 - Vite / Vue JS project with Router
-- CSS boilerplate provided by Pico CSS. Hardcoded into the `index.html`
+- CSS boilerplate provided by Pico CSS. Hardcoded into the `index.html` https://picocss.com/
