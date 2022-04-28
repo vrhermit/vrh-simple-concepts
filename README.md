@@ -1,12 +1,18 @@
-# Vue 3 + Vite
+# MarsX Navigation Concepts
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repo us just a place to test out some non-vr concepts for a WebXR game called MarsX.
 
-## Recommended IDE Setup
+Ideas
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- Navigate multiple levels outside of VR.
+  - Bacause linking while in VR is not a solved problem, we are exploring some ideas to make level progression as simple as possible
+- Store data related to game play and level progress
+  - Use local storage?
+  - User accounts?
 
 ## General notes
 
 - Vite / Vue JS project with Router
+- A-Frame for the WebXR scenes
 - CSS boilerplate provided by Pico CSS. Hardcoded into the `index.html` https://picocss.com/
+- Basic (and hacky) split view with navigation on the side
